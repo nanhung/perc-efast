@@ -26,12 +26,12 @@
 
 Integrate (Lsodes, 1e-6, 1e-6, 1);
 
-MCMC ("perc.mcmc.out",      # output file
-      "",                   # name of restart file
-      "",                   # no data file, data statements instead
-      10000, 0,             # iterations, sim type flag
-      10, 10000,            # printFrequency, itersToPrint
-      99360145.235);        # seed
+MCMC ("perc.mcmc.out",    # output file
+      "",                 # name of restart file
+      "",                 # no data file, data statements instead
+      5000, 0,            # iterations, sim type flag
+      5, 5000,            # printFrequency, itersToPrint
+      41231685);          # seed
 
 Level {
 
