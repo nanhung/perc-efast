@@ -12,7 +12,7 @@ params <- c("X1", "X2", "X3", "X4")
 X.labels <- params
 p <- length(X.labels)
 
-# quantiles
+# quantities
 
 q <- rep(q, p)
 q.arg <- rep(list(q.arg), p)
