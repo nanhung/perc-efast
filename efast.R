@@ -30,3 +30,7 @@ if (m >= p - 1) {
 } else {
   omega[-1] <- (0 : (p - 2)) %% m + 1
 }
+
+# discretization of the s-space
+
+s <- 2 * pi / n * (0 : (n - 1))
